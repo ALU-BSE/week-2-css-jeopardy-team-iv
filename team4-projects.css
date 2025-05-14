@@ -23,11 +23,13 @@
 }
 
 .project-description {
-    /* TODO: Add your styles here */
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 12px;
 }
 
 .project-tags {
-    /* TODO: Add your styles here */
+   margin-bottom: 10px;
 }
 
 .tag {
@@ -41,5 +43,5 @@
 
 /* Don't forget to add hover effects! */
 .project-link:hover {
-    /* TODO: Add your styles here */
+    background-color: #003845;
 }
