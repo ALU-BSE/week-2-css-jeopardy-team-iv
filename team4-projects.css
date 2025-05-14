@@ -4,6 +4,10 @@
 /* Example starter styles */
 .projects-section {
     margin-bottom: 20px;
+    padding: 15px;
+    background-color:#f9f9f9;
+    border-radius: 4px;
+    
     /* TODO: Add your styles here */
 }
 
