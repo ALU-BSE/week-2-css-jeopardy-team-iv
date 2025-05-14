@@ -4,24 +4,62 @@
 /* Example starter styles */
 .projects-section {
     margin-bottom: 20px;
-    /* TODO: Add your styles here */
+     background-color: #f0f4f8;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .project-card {
     margin-bottom: 15px;
+    background-color: #ffffff;
+    border-left: 6px solid #00a8cc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-title {
+     transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    padding: 15px;
+    background-color:#f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+    /* TODO: Add your styles here */
+}
+
+.project-card {
+    /* margin-bottom: 15px; */
     /* TODO: Add your styles here */
 }
 
 .project-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.1);
     /* TODO: Add your styles here */
 }
 
 .project-description {
-    /* TODO: Add your styles here */
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 12px;
 }
 
 .project-tags {
-    /* TODO: Add your styles here */
+   margin-bottom: 10px;
 }
 
 .tag {
@@ -35,5 +73,5 @@
 
 /* Don't forget to add hover effects! */
 .project-link:hover {
-    /* TODO: Add your styles here */
+    background-color: #003845;
 }
